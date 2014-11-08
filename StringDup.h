@@ -52,9 +52,9 @@ public:
 void StringDupTest()
 {
 	StringDup dup;
-	TestCase(dup.getMax("aaiicccnn") == 'c');
-	TestCase(dup.getMax("aabbccdd") == 'a');
-	TestCase(dup.getMax("ab2sbf2dj2skl") == '2');
+	TestCaseInfo(dup.getMax("aaiicccnn"), 'c');
+	TestCaseInfo(dup.getMax("aabbccdd"), 'a');
+	TestCaseInfo(dup.getMax("ab2sbf2dj2skl"), '2');
 }
 
 #endif
